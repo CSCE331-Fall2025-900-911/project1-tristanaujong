@@ -2,3 +2,10 @@ nav {
   text-align: center;
 }
 
+p {
+  max-width: 500px;
+}
+
+ul {
+  max-width: 500px;
+}
