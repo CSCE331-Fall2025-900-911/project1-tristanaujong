@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Akira';
+  src: url('fonts/AkiraExpandedDemo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 nav {
   text-align: center;
   font-size: larger;
@@ -33,13 +40,29 @@ nav {
   margin: 50px;
 }
 
-.hero {
-  margin-top: 50px;
+.list {
   display: flex;
-  justify-content: center;
-
+  font-family: 'Akira', serif;
+  margin-left: 350px;
 }
 
-.hero img {
-  width: 1200px;
+.list h1 {
+  font-size: 100px;
+  margin: 0;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.list h1:hover {
+  opacity: 0.5;              
+  transform: translateX(30px);
+}
+
+.list a {
+  text-decoration: none;  
+  color: inherit;         
+}
+
+.list a:visited {
+  color: inherit;          /* same color as normal */
 }
