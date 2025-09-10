@@ -21,7 +21,9 @@ body {
 }
 
 nav {
+  display: flex;
   text-align: center;
+  justify-content: center;
   font-size: larger;
   font-family: 'Sandra', sans-serif;
   margin: 50px;
@@ -101,4 +103,32 @@ nav a:visited {
 .portfolio {
   font-family: 'Akira', serif;
   color: #302f2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
 } 
+
+.portfolio p {
+  max-width: 750px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.portfolio a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: inherit;    
+}
+
+.portfolio a:hover {
+  opacity: 0.6;              
+}
+
+.portfolio a:visited {
+  color: inherit;       
+}
+
+.portfolio img{
+  max-width: 200px;
+}
+
