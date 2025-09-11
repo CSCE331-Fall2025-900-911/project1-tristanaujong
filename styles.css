@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url("images/home_bg.jpg");
   background-repeat: no-repeat;
@@ -202,6 +206,9 @@ nav a:visited {
   gap: 30px;
 }
 
-.qualifications_bottom li {
-
+.embed {
+  display: block;        /* <embed> is replaced element, not flex container */
+  margin: 0 auto;        /* centers it horizontally */
+  width: 80%;
+  height: 600px;
 }
