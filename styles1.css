@@ -64,7 +64,7 @@ nav a:visited {
 .theme-alt .hero {
   position: relative;     
   width: 100vw;
-  height: 100vh;          
+  height: 80%;          
   overflow: hidden;
   display: flex;
 }
@@ -97,10 +97,13 @@ button {
   font-size: 16px;
   cursor: pointer;
   text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  margin: 50px;
 }
 
 button:hover {
-  opacity: 0.6;     
+  opacity: 0.6;
 }
 
 .list-alt {
@@ -118,14 +121,98 @@ button:hover {
 }
 
 .list-alt h1:hover {
-  opacity: 0.6;              
+  opacity: 0.6; 
 }
 
 .list-alt a {
-  text-decoration: none;  
-  color: inherit;         
+  text-decoration: none;
+  color: inherit;
 }
 
 .list-alt a:visited {
   color: inherit;         
+}
+
+.portfolio-1 {
+  font-family: 'Akira', serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.portfolio-1 img {
+  max-width: 400px;
+}
+
+.portfolio-1 a {
+  color: inherit;    
+}
+
+.portfolio-1 a:hover {
+  opacity: 0.6;              
+}
+
+.portfolio-1 a:visited {
+  color: inherit;       
+}
+
+.portfolio-1 p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 800px;
+  text-align: center;
+}
+
+.qualifications {
+  display: none;
+}
+
+.qualifications_mid {
+  display: none;
+}
+
+.qualifications_list {
+  display: none;
+}
+
+.qualifications_bottom {
+  display: none;
+}
+
+.embed {
+  display: none;
+}
+
+.embed-1 {
+  display: flex;       
+  margin: 0 auto;      
+  width: 50%;
+  height: 100%;
+}
+
+.qualifications-1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Akira', serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume_logos {
+  font-family: 'Akira', serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.resume_logos img {
+  max-width: 100px;
 }
